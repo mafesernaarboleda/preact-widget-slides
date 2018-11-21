@@ -19,11 +19,12 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^4.5.0",
+    "fsevents": "^1.2.4",
     "identity-obj-proxy": "^3.0.0",
     "if-env": "^1.0.0",
     "jest": "^21.2.1",
     "microbundle": "^0.6.0",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.10.0",
     "preact-cli": "^2.0.2",
     "preact-render-to-string": "^3.7.0",
     "preact-widget-scripts": "^0.6.0",

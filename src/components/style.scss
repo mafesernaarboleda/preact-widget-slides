@@ -2,8 +2,6 @@
     position: relative;
     display: flex;
     overflow: auto;
-    justify-content: center;
-
     &::-webkit-scrollbar {
         border-radius: 10px;
         height: 10px;
@@ -12,7 +10,5 @@
 }
 
 .container {
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
-    width: 400px;
-    padding: 20px;
+    width: 100%;
 }

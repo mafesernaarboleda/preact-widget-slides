@@ -13,6 +13,10 @@ export default class Widget extends Component {
             <Item url="https://s3.amazonaws.com/media-p.slid.es/thumbnails/fc7186409ab04107ea408d48efb609d2/thumb.jpg"></Item>
             <Item url="https://s3.amazonaws.com/media-p.slid.es/thumbnails/503083fc3172e9ba786a45adcd11c74b/thumb.jpg"></Item>
             <Item url="https://s3.amazonaws.com/media-p.slid.es/thumbnails/bd2c901eb18365202b354665b93bf3ee/thumb.jpg"></Item>
+            <Item url="https://s3.amazonaws.com/media-p.slid.es/thumbnails/bd2c901eb18365202b354665b93bf3ee/thumb.jpg"></Item>
+            <Item url="https://s3.amazonaws.com/media-p.slid.es/thumbnails/bd2c901eb18365202b354665b93bf3ee/thumb.jpg"></Item>
+            <Item url="https://s3.amazonaws.com/media-p.slid.es/thumbnails/bd2c901eb18365202b354665b93bf3ee/thumb.jpg"></Item>
+            <Item url="https://s3.amazonaws.com/media-p.slid.es/thumbnails/bd2c901eb18365202b354665b93bf3ee/thumb.jpg"></Item>
             </div> 
         </div>
     );
