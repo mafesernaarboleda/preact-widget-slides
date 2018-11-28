@@ -1,7 +1,7 @@
 import { h, Component } from "preact";
 import Item from './item';
 import style from './style';
-import getSlides from '../api';
+import getSlides from './api';
 
 export default class Widget extends Component {
 

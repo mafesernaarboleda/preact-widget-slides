@@ -5,14 +5,14 @@
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.m.js",
-  "source": "components/hello-world/index.js",
+  "source": "components/widget.js",
   "scripts": {
     "test": "NODE_ENV=test jest",
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
     "build": "preact build --no-prerender --clean --template src/index.ejs --service-worker false",
     "serve": "npm run build && preact serve",
     "dev": "preact watch --template src/index.ejs",
-    "dist": "microbundle --entry src/components/hello-world/index.js"
+    "dist": "microbundle --entry src/components/widget.js"
   },
   "keywords": [],
   "author": "Zouhir <zouhir@zouhir.org>",
@@ -25,12 +25,13 @@
     "jest": "^21.2.1",
     "microbundle": "^0.6.0",
     "node-sass": "^4.10.0",
-    "preact-cli": "^2.0.2",
+    "preact-cli": "^2.2.1",
     "preact-render-to-string": "^3.7.0",
     "preact-widget-scripts": "^0.6.0",
     "sass-loader": "^6.0.6"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "preact": "^8.2.5",
     "preact-compat": "^3.17.0",
     "preact-habitat": "^3.1.0",
